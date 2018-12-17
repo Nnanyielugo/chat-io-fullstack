@@ -1,0 +1,17 @@
+{
+  "env": {
+    "node": {
+      "presets": [ "@babel/preset-env" ]
+    },
+    "native": {
+      "presets": [ "module:metro-react-native-babel-preset" ]
+    },
+    "test": {},
+    "web": {
+      "presets": [
+        "@babel/preset-react",
+        "@babel/preset-env"
+      ]
+    }
+  }
+}
