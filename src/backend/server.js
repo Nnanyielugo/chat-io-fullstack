@@ -30,6 +30,7 @@ io.on('connection', (socket) => {
   console.log(socket.id)
 
   socket.on('SEND_MESSAGE', function(data) {
+    // io.emit
     socket.emit('RECIEVE_MESSAGE', data)
   })
 })
